@@ -1,4 +1,4 @@
-/*4. When the user inputs a student’s name, he should view all the details that are marked public.
+/*4. When the user inputs a studentâ€™s name, he should view all the details that are marked public.
 
 This procedure only takes into account a single account_visible variable that currently resides in a given person's Person table. 
 In the actual database, each individual attribute on each person's profile would need its own _visible variable, and 
