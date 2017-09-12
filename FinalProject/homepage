@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Illinois Tech OA</title>
+		<link rel="stylesheet" href="hpstyle.css">
+	</head>
+	<body>
+		<div id="main_container">
+			<div id="header">
+				<div id = "iltech_logo">
+				Illinois Tech OA
+				</div>
+				<div class="login_form">
+					<form>
+						<table>
+							<tbody>
+								<tr>
+									<td>Username</td><td>Password</td>
+								</tr>
+								<tr>
+									<td><input type="text" placeholder="Username"></td>
+									<td><input type="password" placeholder="Password"></td>
+									<td><input type="button" value="log in"></td>
+								</tr>
+								<tr>
+									<td><input type="checkbox">Keep me Logged In</td>
+									<td>Having trouble?</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</div>
+			</div>
+			<div id="body_section">
+				<p>You are great!</p>
+				<div id="img">
+					<img src="campusphoto.jpg" alt ="IIT" width="680" height ="320">
+				</div>
+				<div id="right">
+					<div id ="form">
+					<form>
+					<table>
+						<tr>
+							<!--td><input type="text" placeholder="UserName"></td!-->
+						</tr>
+						<tr>
+							<td><input type= "text" placeholder="Username"></td>
+						</tr>
+						<tr>
+							<td><input type= "text" placeholder="Re-enter username"></td>
+						</tr>
+						<tr>
+							<td><input type="password" placeholder="New Password"></td>
+						</tr>
+						<tr>
+							<td><input type="password" placeholder="Re-enter New Password"></td>
+						</tr>
+						<td><input type="button" value="sign up for free!"></td>
+							<!--tr>
+								<td>Birthday</td>
+							</tr>
+							<tr>
+								<td>
+								<select><option>Day</option>
+									<option1>1</option><option>2</option></select>
+								<select><option>Month</option>
+									<option>Jan</option><option>Feb</option>
+									</select>
+								<select>
+									<option>Year</option><option>1950</option><option>1951</option>
+								</select>
+								</td>
+							</tr>
+							<tr>
+								<td><inpu type="radio">Male<input type="radio">Female</td>
+							</tr!-->
+					</table>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>

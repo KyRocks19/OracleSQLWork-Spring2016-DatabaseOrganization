@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration</title>
+		<link rel="stylesheet" href="registrationstyle.css">
+	</head>
+	<body>
+		<div id="main_container">
+			<div id="header">
+				<div id = "iltech_logo">
+				Illinois Tech OA
+				</div>
+			</div>
+			<div id="body_section">
+				<p>Welcome to IIT! Nice to meet you here!</p>
+				<div id="right">
+				  <div id ="form">
+				    <form NAME ="studentregform" METHOD ="POST" ACTION = "RegistrationAftermath.php">
+				      <table>
+					<tr>
+					  <td>First Name</td><td><input type="text" name="firstname" value="First Name"></td>
+					</tr>
+					<tr>
+					  <td>Middle Name</td><td><input type= "text" name="midname" value="Middle Name"></td>
+					</tr>
+					<tr>
+					  <td>Last Name</td><td><input type= "text" name="lastname"value="Last Name"></td>
+					</tr>
+					<tr>
+					  <td>Email Address</td><td><input type= "text" name="email" value="email@yourdomain.com"></td>
+					</tr>
+					<tr>
+					  <td>Semester You Joined IIT </td>
+					  <td>
+					    <select name="DegreeYear">
+					      <option value="">Year</option>
+					      <option value=2016>2016</option>
+					      <option value=2015>2015</option>
+					      <option value=2014>2014</option>
+					      <option value=2013>2013</option>
+					      <option value=2012>2012</option>
+					    </select>
+					    <select name="DegreeSemester">
+					      <option value="">Semester</option>
+					      <option value="Spring">Spring</option>
+					      <option value="Fall">Fall</option>
+					    </select>
+					  </td>
+					</tr>
+					<tr>
+					  <td>Degree Type</td>
+					  <td><select name="DegreeType">
+					      <option value="">None</option>
+					      <option value="Doctor">Doctor</option>
+					      <option value="Master">Master</option>
+					      <option value="Bachelor">Bachelor</option>
+					  </select></td>
+					</tr>
+					<tr>
+					  <td>Degree Status</td>
+					  <td><select name="DegreeStatus">
+					      <option value="In Progress">In Progress</option>
+					      <option value="Completed">Completed</option>
+                                          </select></td>
+					</tr>
+					<tr>
+					  <td>Any Past Jobs?</td>
+					  <td><input type="TEXT" name="Jobs" value="Job History"></td>
+					</tr>
+					<tr>
+					  <td><input type="Submit" name="SubmitForm" value="Submit"></td>
+					</tr>
+				      </table>
+				    </form>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
